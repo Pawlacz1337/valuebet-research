@@ -58,16 +58,16 @@ Estimate = Σ(stake / bankroll at bet time × CLV) per year at ¼ Kelly; Polish 
 ## Architecture
 
 ```mermaid
-flowchart LR
-  FD[football-data.co.uk CSV] --> RAW[(raw store + sha256 manifest)]
-  OA[The Odds API: Pinnacle live] --> COL[24/7 collector, Oct–Nov 2026] --> RAW
-  RAW --> REP[point-in-time replay<br/>decision Fri/Tue 18:00]
-  REP --> FAIR[fair price: Shin de-vig on Pinnacle]
-  FAIR --> EV[EV + Polish tax regime]
-  EV --> KEL[¼ Kelly + limits 2% / 3% / 15%<br/>25% drawdown breaker]
-  KEL --> LED[ledger in grosze]
-  LED --> CLV[CLV + cluster bootstrap]
-  CLV --> RPT[report + verdict]
+flowchart TD
+  FD["football-data.co.uk<br/>historical odds"] --> RAW[("raw store<br/>sha256 manifest")]
+  OA["The Odds API<br/>live odds"] --> COL["24/7 collector<br/>Oct–Nov 2026"] --> RAW
+  RAW --> REP["point-in-time replay<br/>Fri/Tue 18:00 London"]
+  REP --> FAIR["fair price<br/>Shin de-vig on Pinnacle"]
+  FAIR --> EV["EV +<br/>Polish tax regime"]
+  EV --> KEL["¼ Kelly + stake caps<br/>25% drawdown breaker"]
+  KEL --> LED["ledger<br/>integer grosze"]
+  LED --> CLV["CLV +<br/>cluster bootstrap"]
+  CLV --> RPT["report + verdict"]
 ```
 
 ## Repository map
