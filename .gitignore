@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+data/raw/*
+data/interim/*
+data/processed/*
+data/bets/*
+data/state/*
+data/manifest/*
+!data/**/.gitkeep
+*.parquet
+*.db
+.ipynb_checkpoints/
+logs/
+.coverage
+htmlcov/
+config/*.local.yaml
+
+# Materiał roboczy rozpoznania endpointów (COLLECTOR_PLAN Faza 0).
+# Zawiera surowe cURL-e i odpowiedzi z przeglądarki — mogą nieść
+# identyfikatory sesji. Repo ma być kiedyś publiczne, więc to NIE wchodzi.
+# Do tests/fixtures/ trafiają wyłącznie przycięte, oczyszczone odpowiedzi.
+docs/discovery/
+
+# Wyniki cząstkowe bramki §4 (--resume) — robocze, nie do repo (2026-10-11)
+reports/backtest_fin/*/partial/
+# kopie kontrolne z VPS (dane surowe, nie do repo)
+data/vps_check/

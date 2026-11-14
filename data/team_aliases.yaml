@@ -1,0 +1,262 @@
+# Kanoniczne drużyny i ich aliasy.
+#
+# Aliasy dopisujemy RĘCZNIE, po przejrzeniu raportu z
+# TeamResolver.report_unresolved(). Fuzzy matching generuje sugestie,
+# nigdy nie zatwierdza sam (reguła 15 w CLAUDE.md).
+#
+# Uwaga na pary, które fuzzy skleja, a które są różnymi klubami:
+#   Ruch Chorzów        vs  Ruch Radzionków
+#   Górnik Zabrze       vs  Górnik Łęczna
+#   Stal Mielec         vs  Stal Rzeszów
+#   Wisła Kraków        vs  Wisła Płock
+# Dlatego nazwa miasta jest częścią klucza i nie wolno jej skracać.
+
+lech-poznan:
+  canonical_name: Lech Poznań
+  country: PL
+  aliases:
+    - Lech
+    - KKS Lech Poznan
+    - Lech Poznan
+
+legia-warszawa:
+  canonical_name: Legia Warszawa
+  country: PL
+  aliases:
+    - Legia
+    - Legia Warsaw
+    - CWKS Legia Warszawa
+
+rakow-czestochowa:
+  canonical_name: Raków Częstochowa
+  country: PL
+  aliases:
+    - Rakow
+    - Raków
+    - RKS Rakow Czestochowa
+
+jagiellonia-bialystok:
+  canonical_name: Jagiellonia Białystok
+  country: PL
+  aliases:
+    - Jagiellonia
+    - Jagiellonia Bialystok
+
+pogon-szczecin:
+  canonical_name: Pogoń Szczecin
+  country: PL
+  aliases:
+    - Pogon Szczecin
+    - Pogoń
+
+gornik-zabrze:
+  canonical_name: Górnik Zabrze
+  country: PL
+  aliases:
+    - Gornik Zabrze
+
+gornik-leczna:
+  canonical_name: Górnik Łęczna
+  country: PL
+  aliases:
+    - Gornik Leczna
+    - Leczna
+
+ruch-chorzow:
+  canonical_name: Ruch Chorzów
+  country: PL
+  aliases:
+    - Ruch Chorzow
+
+ruch-radzionkow:
+  canonical_name: Ruch Radzionków
+  country: PL
+  aliases:
+    - Ruch Radzionkow
+
+wisla-krakow:
+  canonical_name: Wisła Kraków
+  country: PL
+  aliases:
+    - Wisla Krakow
+    - Wisla Cracow
+
+wisla-plock:
+  canonical_name: Wisła Płock
+  country: PL
+  aliases:
+    - Wisla Plock
+
+widzew-lodz:
+  canonical_name: Widzew Łódź
+  country: PL
+  aliases:
+    - Widzew Lodz
+    - Widzew
+
+cracovia:
+  canonical_name: Cracovia
+  country: PL
+  aliases:
+    - MKS Cracovia
+    - Cracovia Krakow
+
+zaglebie-lubin:
+  canonical_name: Zagłębie Lubin
+  country: PL
+  aliases:
+    - Zaglebie Lubin
+
+piast-gliwice:
+  canonical_name: Piast Gliwice
+  country: PL
+  aliases:
+    - Piast
+
+korona-kielce:
+  canonical_name: Korona Kielce
+  country: PL
+  aliases:
+    - Korona
+
+radomiak-radom:
+  canonical_name: Radomiak Radom
+  country: PL
+  aliases:
+    - Radomiak
+
+motor-lublin:
+  canonical_name: Motor Lublin
+  country: PL
+  aliases:
+    - Motor
+
+stal-mielec:
+  canonical_name: Stal Mielec
+  country: PL
+  aliases: []
+
+stal-rzeszow:
+  canonical_name: Stal Rzeszów
+  country: PL
+  aliases:
+    - Stal Rzeszow
+
+slask-wroclaw:
+  canonical_name: Śląsk Wrocław
+  country: PL
+  aliases:
+    - Slask Wroclaw
+    - Slask
+
+# ---------------------------------------------------------------------------
+# Kluby z historii Ekstraklasy 2012/13-2026/27, dopisane po raporcie
+# pokrycia z football-data.co.uk (2026-09-21). Spadkowicze i kluby, których
+# już nie ma w lidze, MUSZĄ tu zostać — ich usunięcie to survivorship bias.
+#
+# Skróty niejednoznaczne globalnie ("Wisla", "Ruch", "Zaglebie", "Gornik Z.")
+# celowo NIE są tu aliasami — rozwija je SOURCE_NAME_OVERRIDES w
+# ingest/football_data.py, tylko dla tego źródła.
+# ---------------------------------------------------------------------------
+
+lechia-gdansk:
+  canonical_name: Lechia Gdańsk
+  country: PL
+  aliases:
+    - Lechia Gdansk
+    - Lechia
+
+podbeskidzie-bielsko-biala:
+  canonical_name: Podbeskidzie Bielsko-Biała
+  country: PL
+  aliases:
+    - Podbeskidzie Bielsko-Biala
+    - Podbeskidzie
+
+polonia-warszawa:
+  canonical_name: Polonia Warszawa
+  country: PL
+  aliases:
+    - Polonia Warsaw
+
+gks-belchatow:
+  canonical_name: GKS Bełchatów
+  country: PL
+  aliases:
+    - GKS Belchatow
+    - Belchatow
+
+gks-katowice:
+  canonical_name: GKS Katowice
+  country: PL
+  aliases:
+    - Katowice
+
+zawisza-bydgoszcz:
+  canonical_name: Zawisza Bydgoszcz
+  country: PL
+  aliases:
+    - Zawisza
+
+termalica-nieciecza:
+  canonical_name: Bruk-Bet Termalica Nieciecza
+  country: PL
+  aliases:
+    - Termalica B-B.
+    - Termalica Nieciecza
+    - Bruk-Bet Termalica
+    - Nieciecza
+
+arka-gdynia:
+  canonical_name: Arka Gdynia
+  country: PL
+  aliases:
+    - Arka
+
+sandecja-nowy-sacz:
+  canonical_name: Sandecja Nowy Sącz
+  country: PL
+  aliases:
+    - Sandecja Nowy S.
+    - Sandecja Nowy Sacz
+    - Sandecja
+
+miedz-legnica:
+  canonical_name: Miedź Legnica
+  country: PL
+  aliases:
+    - Miedz Legnica
+    - Legnica
+
+zaglebie-sosnowiec:
+  canonical_name: Zagłębie Sosnowiec
+  country: PL
+  aliases:
+    - Zaglebie Sosnowiec
+
+lks-lodz:
+  canonical_name: ŁKS Łódź
+  country: PL
+  aliases:
+    - LKS Lodz
+
+warta-poznan:
+  canonical_name: Warta Poznań
+  country: PL
+  aliases:
+    - Warta Poznan
+    - Warta
+
+puszcza-niepolomice:
+  canonical_name: Puszcza Niepołomice
+  country: PL
+  aliases:
+    - Puszcza Niepolomice
+    - Puszcza
+
+wieczysta-krakow:
+  canonical_name: Wieczysta Kraków
+  country: PL
+  aliases:
+    - Wieczysta Krakow
+    - Wieczysta

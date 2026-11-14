@@ -1,0 +1,5 @@
+# Konfiguracja trybu live (Filar 3). Bez sekretów.
+# Stały kapitał projektu — decyzja Pawła 2026-10-11 (wariant B). Backtest
+# Filaru 1 liczy na umownych 10 000 zł (config/strategy.yaml,
+# BACKTEST_FIN_PLAN §3) — ta liczba go nie zmienia.
+bankroll_pln: 1000

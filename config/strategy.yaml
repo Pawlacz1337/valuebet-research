@@ -1,0 +1,24 @@
+# Parametry strategii toru S (TOR_S_PLAN §4, BACKTEST_FIN_PLAN §3).
+# Czytane przez punkty wejścia (scripts/, digest) i przekazywane jawnie —
+# funkcje wyceny nie mają wartości domyślnych (CLAUDE.md reguła 30).
+# Zmiana po obejrzeniu wyniku backtestu = strojenie (reguła 10, BACKTEST_FIN_PLAN §8).
+
+# Próg przewagi theta: k_min = (1 + theta) / (p * tax).
+edge_threshold: 0.02
+
+# Moment obserwacji kursów sprzed meczu football-data (Filar 1, BACKTEST_FIN_PLAN §1).
+# notes.txt: "Betting odds for weekend games are collected Friday afternoons, and on
+# Tuesday afternoons for midweek games." Założenie, nie fakt (docs/sources.md).
+# Decyzja Pawła 2026-10-08: przebieg główny friday_tuesday_1800_london; przebieg
+# wrażliwości friday_tuesday_2359_london, obie liczby obok siebie, bez uśredniania.
+fd_observed_at_rule: friday_tuesday_1800_london
+
+# Kapitał startowy backtestu Filaru 1 — umowny, zamrożony (BACKTEST_FIN_PLAN §3).
+# Kapitał live jest osobno: config/live.yaml.
+backtest_start_capital_pln: 10000
+
+# Minimalna stawka zakładu we WSZYSTKICH strategiach (decyzja Pawła 2026-10-11):
+# Betclic, Szczegółowe zasady pkt 3.1 — „Minimalna stawka każdego zakładu wynosi
+# 0,50 zł” (docs/promocje.md T12). Stawka Kelly'ego poniżej → zakład pominięty
+# z licznikiem, nigdy zaokrąglony w górę.
+min_stake_pln: 0.50

@@ -1,0 +1,60 @@
+{
+  "league": "E0",
+  "seasons": [
+    "1920",
+    "2021",
+    "2122",
+    "2223",
+    "2324",
+    "2425"
+  ],
+  "n_matches": 2269,
+  "n_seasons": 6,
+  "n_shin_failed_1x2": 0,
+  "n_shin_failed_ou": 0,
+  "variants": {
+    "rho_zero": {
+      "rho": 0.0,
+      "n_usable": 2269,
+      "n_not_inverted_1x2": 0,
+      "n_not_solved_ou": 0,
+      "sd_T_1x2": 0.4510004696396258,
+      "sd_T_ou": 0.4030232263895812,
+      "sd_ratio": 1.1190433704772824,
+      "correlation": 0.935975562520969,
+      "mean_T_1x2": 2.6156484400501188,
+      "mean_T_ou": 2.9016129410042564,
+      "slope_T_ou_on_T_1x2": {
+        "slope": 0.8364068696656202,
+        "ci_low": 0.8081409026345262,
+        "ci_high": 0.8600022495999265,
+        "n_clusters": 6,
+        "describe": "nachylenie=0.8364  CI [0.8081, 0.8600]  polowa szerokosci=0.0259  n=2269  r=0.9360"
+      },
+      "valid": true,
+      "criterion": "sd_ratio in [0.8, 1.25] AND correlation >= 0.7"
+    },
+    "rho_median_ekstraklasa": {
+      "rho": -0.0702,
+      "n_usable": 2269,
+      "n_not_inverted_1x2": 0,
+      "n_not_solved_ou": 0,
+      "sd_T_1x2": 0.4878998860855113,
+      "sd_T_ou": 0.4030232021654026,
+      "sd_ratio": 1.210599993906244,
+      "correlation": 0.9401076095051203,
+      "mean_T_1x2": 2.90189615852115,
+      "mean_T_ou": 2.9016129333739205,
+      "slope_T_ou_on_T_1x2": {
+        "slope": 0.7765633687735903,
+        "ci_low": 0.7535363813434961,
+        "ci_high": 0.7969227749811432,
+        "n_clusters": 6,
+        "describe": "nachylenie=0.7766  CI [0.7535, 0.7969]  polowa szerokosci=0.0217  n=2269  r=0.9401"
+      },
+      "valid": true,
+      "criterion": "sd_ratio in [0.8, 1.25] AND correlation >= 0.7"
+    }
+  },
+  "any_valid": true
+}

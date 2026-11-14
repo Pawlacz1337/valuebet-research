@@ -1,0 +1,454 @@
+{
+  "commit": "313591a",
+  "seasons": [
+    {
+      "season": "2015/16",
+      "n": 296,
+      "n_train": 832,
+      "xi": 0.0,
+      "tau_strength": 0.13862607638629154,
+      "tau_openness": 0.02772210721233603,
+      "n_validation_seasons": 1,
+      "n_rejected_xi": 0,
+      "condition_number": 50.339288534435326,
+      "n_dropped_teams": 0,
+      "n_fits": 128,
+      "n_unknown_team_matches": 1,
+      "log_loss_dc": 1.0877638955879458
+    },
+    {
+      "season": "2016/17",
+      "n": 296,
+      "n_train": 1128,
+      "xi": 0.001,
+      "tau_strength": 0.11548285630439846,
+      "tau_openness": 0.030157553683635978,
+      "n_validation_seasons": 2,
+      "n_rejected_xi": 0,
+      "condition_number": 125.511946396559,
+      "n_dropped_teams": 0,
+      "n_fits": 133,
+      "n_unknown_team_matches": 2,
+      "log_loss_dc": 1.0458845142955895
+    },
+    {
+      "season": "2017/18",
+      "n": 296,
+      "n_train": 1424,
+      "xi": 0.0,
+      "tau_strength": 0.13216451649724548,
+      "tau_openness": 0.023663808156525776,
+      "n_validation_seasons": 3,
+      "n_rejected_xi": 0,
+      "condition_number": 86.72505138348134,
+      "n_dropped_teams": 0,
+      "n_fits": 127,
+      "n_unknown_team_matches": 1,
+      "log_loss_dc": 1.0596749522840354
+    },
+    {
+      "season": "2018/19",
+      "n": 296,
+      "n_train": 1720,
+      "xi": 0.0,
+      "tau_strength": 0.12854149113083826,
+      "tau_openness": 0.0239877169170835,
+      "n_validation_seasons": 4,
+      "n_rejected_xi": 0,
+      "condition_number": 105.58459975813793,
+      "n_dropped_teams": 0,
+      "n_fits": 130,
+      "n_unknown_team_matches": 2,
+      "log_loss_dc": 1.0587915589865844
+    },
+    {
+      "season": "2019/20",
+      "n": 296,
+      "n_train": 2016,
+      "xi": 0.001,
+      "tau_strength": 0.11211128350064334,
+      "tau_openness": 0.029992170338893984,
+      "n_validation_seasons": 5,
+      "n_rejected_xi": 0,
+      "condition_number": 462.6067680923295,
+      "n_dropped_teams": 0,
+      "n_fits": 119,
+      "n_unknown_team_matches": 2,
+      "log_loss_dc": 1.0277349998247338
+    },
+    {
+      "season": "2020/21",
+      "n": 240,
+      "n_train": 2312,
+      "xi": 0.0,
+      "tau_strength": 0.13492564269765295,
+      "tau_openness": 0.020373334386658077,
+      "n_validation_seasons": 6,
+      "n_rejected_xi": 0,
+      "condition_number": 147.85510689518725,
+      "n_dropped_teams": 0,
+      "n_fits": 112,
+      "n_unknown_team_matches": 2,
+      "log_loss_dc": 1.0673140515425874
+    },
+    {
+      "season": "2021/22",
+      "n": 306,
+      "n_train": 2552,
+      "xi": 0.0,
+      "tau_strength": 0.13350419674275868,
+      "tau_openness": 0.023767281736560217,
+      "n_validation_seasons": 7,
+      "n_rejected_xi": 0,
+      "condition_number": 176.23740451538183,
+      "n_dropped_teams": 0,
+      "n_fits": 121,
+      "n_unknown_team_matches": 1,
+      "log_loss_dc": 1.0552166837726065
+    },
+    {
+      "season": "2022/23",
+      "n": 306,
+      "n_train": 2858,
+      "xi": 0.001,
+      "tau_strength": 0.13825024466978147,
+      "tau_openness": 0.029358271717382055,
+      "n_validation_seasons": 8,
+      "n_rejected_xi": 0,
+      "condition_number": 1373.8908548018264,
+      "n_dropped_teams": 0,
+      "n_fits": 130,
+      "n_unknown_team_matches": 0,
+      "log_loss_dc": 1.0398146054444481
+    },
+    {
+      "season": "2023/24",
+      "n": 306,
+      "n_train": 3164,
+      "xi": 0.001,
+      "tau_strength": 0.1386980551375051,
+      "tau_openness": 0.030705708117205004,
+      "n_validation_seasons": 9,
+      "n_rejected_xi": 0,
+      "condition_number": 1972.2330347600985,
+      "n_dropped_teams": 0,
+      "n_fits": 133,
+      "n_unknown_team_matches": 1,
+      "log_loss_dc": 1.0576849616817978
+    },
+    {
+      "season": "2024/25",
+      "n": 306,
+      "n_train": 3470,
+      "xi": 0.001,
+      "tau_strength": 0.1304817193836741,
+      "tau_openness": 0.038811765224968015,
+      "n_validation_seasons": 10,
+      "n_rejected_xi": 0,
+      "condition_number": 1057.1991275149815,
+      "n_dropped_teams": 1,
+      "n_fits": 128,
+      "n_unknown_team_matches": 2,
+      "log_loss_dc": 1.0328878968436714
+    }
+  ],
+  "goal_spread": {
+    "sd_pred": 0.0756831921393055,
+    "min_pred": 2.418065204740877,
+    "max_pred": 3.051966100337877,
+    "sd_real": 1.6328484057908246,
+    "correlation_pred_real": 0.07427459552773287
+  },
+  "goal_level": {
+    "cala_proba": {
+      "n": 2944,
+      "n_clusters": 10,
+      "mean": 0.018029408956230408,
+      "ci_low": -0.046564076952376944,
+      "ci_high": 0.0752286624675898,
+      "significant": false
+    },
+    "dolny_kwartyl": {
+      "n": 736,
+      "n_clusters": 10,
+      "mean": 0.03165187476293249,
+      "ci_low": -0.07987801278246175,
+      "ci_high": 0.14507924774166114,
+      "significant": false
+    },
+    "gorny_kwartyl": {
+      "n": 736,
+      "n_clusters": 10,
+      "mean": 0.041131652101167974,
+      "ci_low": -0.06088450982962122,
+      "ci_high": 0.14886523918462924,
+      "significant": false
+    },
+    "koszyk_px_030": {
+      "n": 34,
+      "n_clusters": 2,
+      "mean": 0.1821837498407149,
+      "ci_low": null,
+      "ci_high": null,
+      "note": "n/d (2 klastrów)"
+    }
+  },
+  "draw_calibration": [
+    {
+      "n": 209,
+      "n_clusters": 10,
+      "mean": 0.16267942583732056,
+      "ci_low": 0.10152284263959391,
+      "ci_high": 0.2231404958677686,
+      "significant": true,
+      "bucket": [
+        0.0,
+        0.24
+      ],
+      "predicted": 0.22513846552384176,
+      "z": -2.013189936429739
+    },
+    {
+      "n": 855,
+      "n_clusters": 10,
+      "mean": 0.26900584795321636,
+      "ci_low": 0.2341905143695458,
+      "ci_high": 0.30564784053156147,
+      "significant": true,
+      "bucket": [
+        0.24,
+        0.27
+      ],
+      "predicted": 0.2604993483737879,
+      "z": 0.4666488398370112
+    },
+    {
+      "n": 1846,
+      "n_clusters": 10,
+      "mean": 0.2800650054171181,
+      "ci_low": 0.2643377972392571,
+      "ci_high": 0.2956473812274191,
+      "significant": true,
+      "bucket": [
+        0.27,
+        0.3
+      ],
+      "predicted": 0.28168528578494656,
+      "z": -0.20286117644645307
+    },
+    {
+      "n": 34,
+      "n_clusters": 2,
+      "mean": 0.2647058823529412,
+      "ci_low": null,
+      "ci_high": null,
+      "note": "n/d (2 klastrów)",
+      "bucket": [
+        0.3,
+        0.33
+      ],
+      "predicted": 0.30214377763949646,
+      "z": null
+    }
+  ],
+  "paired_1x2": {
+    "ll_dc": 1.052916378461,
+    "ll_elo": 1.0527795869459824,
+    "dc_minus_elo": {
+      "mean": 0.00013679151501778424,
+      "ci_low": -0.0031119249922560125,
+      "ci_high": 0.004766246796304509,
+      "significant": false
+    },
+    "dc_minus_fb9ec10": {
+      "mean": -0.003496628587106695,
+      "ci_low": -0.00905140550282121,
+      "ci_high": 0.0005813476293593325,
+      "significant": false
+    },
+    "per_season": [
+      {
+        "season": "2015/16",
+        "n": 296,
+        "ll_dc": 1.0877638955879458,
+        "ll_elo": 1.0882978247835466
+      },
+      {
+        "season": "2016/17",
+        "n": 296,
+        "ll_dc": 1.0458845142955895,
+        "ll_elo": 1.0449292585752212
+      },
+      {
+        "season": "2017/18",
+        "n": 296,
+        "ll_dc": 1.0596749522840354,
+        "ll_elo": 1.061698235635805
+      },
+      {
+        "season": "2018/19",
+        "n": 296,
+        "ll_dc": 1.0587915589865844,
+        "ll_elo": 1.0598845008695867
+      },
+      {
+        "season": "2019/20",
+        "n": 296,
+        "ll_dc": 1.0277349998247338,
+        "ll_elo": 1.033518106588026
+      },
+      {
+        "season": "2020/21",
+        "n": 240,
+        "ll_dc": 1.0673140515425874,
+        "ll_elo": 1.068329300688426
+      },
+      {
+        "season": "2021/22",
+        "n": 306,
+        "ll_dc": 1.0552166837726065,
+        "ll_elo": 1.037124403277637
+      },
+      {
+        "season": "2022/23",
+        "n": 306,
+        "ll_dc": 1.0398146054444481,
+        "ll_elo": 1.040921861813045
+      },
+      {
+        "season": "2023/24",
+        "n": 306,
+        "ll_dc": 1.0576849616817978,
+        "ll_elo": 1.057580342025943
+      },
+      {
+        "season": "2024/25",
+        "n": 306,
+        "ll_dc": 1.0328878968436714,
+        "ll_elo": 1.0396642607719462
+      }
+    ]
+  },
+  "g4": {
+    "n_with_pinnacle": 2943,
+    "n_dev": 2944,
+    "n_without_pinnacle": 1,
+    "c_slope_rho_model": {
+      "slope": 2.2071387747400686,
+      "ci_low": 1.5880110736868476,
+      "ci_high": 2.7320611837194386,
+      "half_width": 0.5720250550162955,
+      "n": 2943,
+      "n_clusters": 10,
+      "correlation": 0.5458762868289316,
+      "sd_x": 0.07567823364535799,
+      "sd_y": 0.30598941172700755,
+      "describe": "nachylenie=2.2071  CI [1.5880, 2.7321]  polowa szerokosci=0.5720  n=2943  r=0.5459",
+      "n_not_inverted": 0,
+      "pct_not_inverted": 0.0
+    },
+    "c_slope_rho_zero": {
+      "slope": 1.7497518305953375,
+      "ci_low": 1.3875574318234154,
+      "ci_high": 2.145034600556885,
+      "half_width": 0.3787385843667348,
+      "n": 2943,
+      "n_clusters": 10,
+      "correlation": 0.5149296392576881,
+      "sd_x": 0.07567823364535799,
+      "sd_y": 0.25715771197027626,
+      "describe": "nachylenie=1.7498  CI [1.3876, 2.1450]  polowa szerokosci=0.3787  n=2943  r=0.5149",
+      "n_not_inverted": 0,
+      "pct_not_inverted": 0.0
+    },
+    "b_over25_reliability": [
+      {
+        "n": 29,
+        "n_clusters": 3,
+        "mean": 0.27586206896551724,
+        "ci_low": null,
+        "ci_high": null,
+        "note": "n/d (3 klastrów)",
+        "bucket": [
+          0.0,
+          0.45
+        ],
+        "predicted": 0.44453408504845027,
+        "z": null
+      },
+      {
+        "n": 2302,
+        "n_clusters": 10,
+        "mean": 0.4826238053866203,
+        "ci_low": 0.454586296738359,
+        "ci_high": 0.5132669983416253,
+        "significant": true,
+        "bucket": [
+          0.45,
+          0.5
+        ],
+        "predicted": 0.4818444686507078,
+        "z": 0.052061408969367534
+      },
+      {
+        "n": 587,
+        "n_clusters": 10,
+        "mean": 0.5281090289608177,
+        "ci_low": 0.48854961832061067,
+        "ci_high": 0.5631292417771103,
+        "significant": true,
+        "bucket": [
+          0.5,
+          0.55
+        ],
+        "predicted": 0.5139123471438625,
+        "z": 0.7461956784338581
+      },
+      {
+        "n": 26,
+        "n_clusters": 8,
+        "mean": 0.6538461538461539,
+        "ci_low": 0.52,
+        "ci_high": 0.8260869565217391,
+        "significant": true,
+        "bucket": [
+          0.55,
+          1.0
+        ],
+        "predicted": 0.5620428237927696,
+        "z": 1.175708556479137
+      }
+    ],
+    "b_over25_spread": {
+      "sd": 0.018663763776637404,
+      "mean_predicted": 0.4885791835911664,
+      "realised": 0.49116847826086957
+    },
+    "d_draw_slope": {
+      "slope": 1.0848586384698378,
+      "ci_low": 0.9379784956862134,
+      "ci_high": 1.3561301962355352,
+      "half_width": 0.2090758502746609,
+      "n": 2943,
+      "n_clusters": 10,
+      "correlation": 0.6055833366352449,
+      "sd_x": 0.01811658201519691,
+      "sd_y": 0.03245454309878352,
+      "describe": "nachylenie=1.0849  CI [0.9380, 1.3561]  polowa szerokosci=0.2091  n=2943  r=0.6056"
+    },
+    "f_outcome_slope": {
+      "slope": 1.6024582403314274,
+      "ci_low": 0.7576187124215721,
+      "ci_high": 2.4389076507364864,
+      "half_width": 0.8406444691574572,
+      "n": 2944,
+      "n_clusters": 10,
+      "correlation": 0.07427459552773287,
+      "sd_x": 0.0756703372445819,
+      "sd_y": 1.6325710642337004,
+      "describe": "nachylenie=1.6025  CI [0.7576, 2.4389]  polowa szerokosci=0.8406  n=2944  r=0.0743"
+    },
+    "e_pol_csv_has_totals": false,
+    "e_note": "POL.csv ma wylacznie 1X2 (PSC/MaxC/AvgC/BFEC/B365C). Bezposredni benchmark totali czeka na poller."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "commit_frozen": "3433f2c",
+  "lockbox_seasons": [
+    "2025/26",
+    "2026/27"
+  ],
+  "cluster_unit": "tydzien ISO w obrebie sezonu (przyblizenie kolejki)",
+  "caveat": "Lockbox NIE jest dziewiczy: zadeklarowany 2026-09-30, po tym jak log loss obu sezonow pojawil sie w raportach walk-forward. Zadna decyzja nie zostala na nich oparta, ale wynik czytaj z ta poprawka.",
+  "n": 375,
+  "n_clusters": 44,
+  "per_season": [
+    {
+      "season": "2025/26",
+      "n": 306,
+      "ll_dc": 1.0649442375588363,
+      "ll_elo": 1.0693056528968592
+    },
+    {
+      "season": "2026/27",
+      "n": 69,
+      "ll_dc": 1.052757677497823,
+      "ll_elo": 1.0483193562241773
+    }
+  ],
+  "ll": {
+    "dc": 1.06270191050761,
+    "elo": 1.0654441743090857
+  },
+  "dc_minus_elo": {
+    "mean": -0.002742263801475779,
+    "ci_low": -0.010282492829718456,
+    "ci_high": 0.005504630830063376,
+    "n": 375,
+    "n_clusters": 44,
+    "significant": false
+  },
+  "gaps": {
+    "pinnacle": {
+      "n": 112,
+      "seasons": [
+        "2025/26"
+      ],
+      "ll_market": 1.033268283032888,
+      "ll_dc": 1.044710759328602,
+      "ll_elo": 1.042377281794445,
+      "elo_minus_market": {
+        "mean": 0.00910899876155673,
+        "ci_low": -0.014019769547732564,
+        "ci_high": 0.03674346307656965,
+        "n": 112,
+        "n_clusters": 14,
+        "significant": false
+      },
+      "dc_minus_market": {
+        "mean": 0.01144247629571379,
+        "ci_low": -0.010133318583837187,
+        "ci_high": 0.03505845928893743,
+        "n": 112,
+        "n_clusters": 14,
+        "significant": false
+      }
+    },
+    "betfair_exchange": {
+      "n": 350,
+      "seasons": [
+        "2025/26",
+        "2026/27"
+      ],
+      "ll_market": 1.0678588715579906,
+      "ll_dc": 1.071205641996333,
+      "ll_elo": 1.0723716077133534,
+      "elo_minus_market": {
+        "mean": 0.00451273615536293,
+        "ci_low": -0.013046158820057708,
+        "ci_high": 0.021941988036583038,
+        "n": 350,
+        "n_clusters": 42,
+        "significant": false
+      },
+      "dc_minus_market": {
+        "mean": 0.0033467704383422854,
+        "ci_low": -0.012989332464492359,
+        "ci_high": 0.0197080994145455,
+        "n": 350,
+        "n_clusters": 42,
+        "significant": false
+      }
+    }
+  }
+}

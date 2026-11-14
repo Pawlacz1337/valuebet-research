@@ -1,0 +1,16 @@
+# Warunki promocji (CLAUDE.md reguła 20, docs/promocje.md). Bez sekretów.
+# Braki (null) rozstrzyga ładowacz live (pricing/ev.load_betclic_regime_config)
+# według docs/promocje.md — wariant najmniej korzystny dla gracza.
+# Daty: północ Europe/Warsaw.
+betclic:
+  promo: bez_podatku_2_0
+  promo_valid_from: 2026-05-21
+  promo_verified_on: null      # data weryfikacji regulaminu słowo w słowo (T1)
+  join_date: null              # T7: = max(data rejestracji konta, 21.05.2026 — start oferty)
+  external_turnover_pln: null  # stawki u Betclica spoza dziennika od 21.05.2026 (T2)
+  external_coupons: null       # liczba kuponów spoza dziennika od 21.05.2026 (T2/T4)
+  min_stake_pln: 0.50          # T12 — Szczegółowe zasady pkt 3.1 (promocje.md, 2026-10-09)
+  # T12 — lista kluczy z schema.MARKET_ALIASES (h2h, 1x2, totals, over_under,
+  # spreads, asian_handicap, double_chance, btts, corners_ou, cards_ou); nazwę z
+  # regulaminu przepisz na klucz. Napis zamiast listy albo nieznana nazwa → błąd.
+  excluded_markets: []         # T12 — Bez Podatku 2.0 §3 ust. 2.1: rynków nie wyłącza

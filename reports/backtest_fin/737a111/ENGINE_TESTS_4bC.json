@@ -1,0 +1,32 @@
+{
+ "header": "CZĘŚCIOWY — NIE BRAMKA; uzupełnia bramkę 27ae469 (24/25 OK, 4b-C czerwone: remis zaokrąglenia)",
+ "partial": true,
+ "is_gate": false,
+ "only": "4b-C",
+ "commit": "737a111",
+ "reference_commit": "27ae469",
+ "src_config_diff_command": "git diff 27ae469..HEAD -- src config",
+ "src_config_diff": "",
+ "generated_by": "scripts/engine_tests.py",
+ "started_at": "2026-10-15T21:28:20.085294+00:00",
+ "finished_at": "2026-10-15T21:43:43.348595+00:00",
+ "seeds": 200,
+ "poison_seeds": 10,
+ "workers": 2,
+ "n_matches": 1816,
+ "raw_root": "<user>\\Desktop\\value-bet\\data\\raw",
+ "world_sha256": "b2818773f24aab96a9d93f5f2163797f79ac4f02b2deda0ff96dc3a058d11a9c",
+ "seed_runs_total": 20,
+ "paper_coupons": {
+  "4-base-C": 0,
+  "4b-C": 14383
+ },
+ "passed": true,
+ "checks": [
+  {
+   "name": "4b-C trucizna (kryterium ścieżki, 2026-10-12): spermutowane wyniki → ci sami kandydaci; każda różnica kuponów wyjaśniona stanem przebiegu (kapitał, PAPER, min. stawka) potwierdzonym z księgi; inny P&L",
+   "passed": true,
+   "detail": "kandydaci identyczni: True; stawki = wzór (silnik): True; P&L inny: True; nasiono 0: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 0; nasiono 1: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 3476, STAWKA_PONIZEJ_MINIMUM: 1, STAWKA_ZERO: 50; nasiono 2: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 0, STAWKA_PONIZEJ_MINIMUM: 1; nasiono 3: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 3048, STAWKA_PONIZEJ_MINIMUM: 1, STAWKA_ZERO: 21; nasiono 4: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 1629; nasiono 5: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 0, STAWKA_PONIZEJ_MINIMUM: 1; nasiono 6: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 0; nasiono 7: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 3370, STAWKA_PONIZEJ_MINIMUM: 1, STAWKA_ZERO: 45; nasiono 8: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 667; nasiono 9: wyjaśnione — PAPER (tryb, obsunięcie z księgi): 2183, STAWKA_PONIZEJ_MINIMUM: 1; niewyjaśnionych: 0; audyt stawek z księgi (przebiegów 20/20): kuponów 89958, remisów 28, zaakceptowanych jako remis 1, odrzuconych 0, max |Δ kapitału| 6.548e-11 (próg 1e-06)"
+  }
+ ]
+}
