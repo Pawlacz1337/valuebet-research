@@ -6,6 +6,8 @@
 
 **Answer.** The edge is real but thin. Across 2,628 bets the system bought prices **1.97% better than the Pinnacle closing line** (95% CI +1.52% to +2.42%). Under Poland's 12% tax on every stake the same bets lose money; only tax-free promotions leave an estimated **~1–3% of capital per year**. The project deliberately stopped at the backtest stage — that is what the backtest was for.
 
+**Case study (2–3 pages, with charts): [docs/case-study/CASE_STUDY.md](docs/case-study/CASE_STUDY.md)**
+
 ## Key results — official run `4599dca`, independently audited
 
 Data: football-data.co.uk · 22 European leagues · 7 seasons (2019/20–2025/26) · 51,653 matches · 38 strategy runs.

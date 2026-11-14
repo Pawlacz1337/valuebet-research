@@ -63,7 +63,8 @@ line-length = 88
 target-version = "py312"
 src = ["src", "tests"]
 # Skrypty dowodowe audytu FSA #1 — archiwum, kopiowane dosłownie, nie kod produkcyjny.
-extend-exclude = ["reports/evidence"]
+# Skrypt wykresów studium przypadku — wklejony dosłownie, nie kod produkcyjny.
+extend-exclude = ["reports/evidence", "docs/case-study/make_charts.py"]
 
 [tool.ruff.lint]
 select = [
